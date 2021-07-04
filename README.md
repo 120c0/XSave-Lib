@@ -18,3 +18,7 @@ xsave.clear():
   Obviamente limpa o banco de dados
 
 Pronto, o básico dele, é apenas para ter noção de banco de dados.
+
+<div>
+  <button>Click-me</button>
+</div>
