@@ -1,3 +1,14 @@
+# XSave-Lib 1.1.0 - remaster
+## addDataInfo(const string &, const string &)
+A mesma função da versão 1.0.0 no 'xsave.add(...)'
+
+## loadFile(const string)
+Carrega o banco de dados em um arquivo
+
+## getDataInfo(const string)
+A mesma função de 'getData(...)' da versão 1.0.0 um
+
+
 # XSave-Lib 1.0.0
 Esse projeto foi feito para o iniciante ter noção básica de banco de dados. Aproveitem :)
 
