@@ -31,4 +31,8 @@
 # Progresso
 - [X] Refatoraçao na classe XSave (1.0.0).
 - [ ] Criptografia para dificultar acesso direto ao arquivo.
+<<<<<<< HEAD
 - [ ] Salvar uma lista de valores em um endereço.
+=======
+- [ ] Salvar uma lista de valores em um endereço.
+>>>>>>> ecd7a1bbacffedbfffcba4e44c9eb29280cc094a
