@@ -1,0 +1,3 @@
+/home/pi/Documents/Programação/Projeto/XSave-Lib/exemple/build/CMakeFiles/rebuild_cache.dir
+/home/pi/Documents/Programação/Projeto/XSave-Lib/exemple/build/CMakeFiles/main.dir
+/home/pi/Documents/Programação/Projeto/XSave-Lib/exemple/build/CMakeFiles/edit_cache.dir

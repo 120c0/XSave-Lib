@@ -3,7 +3,7 @@
 
 int main()
 {
-  XSave data("data.dl");
+  XSave data("nomes.dl");
 
   char a[256], v[256];
 
