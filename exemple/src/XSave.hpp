@@ -12,7 +12,7 @@ class XSave
 {
 	private:
 		std::string __filename;
-		std::vector<std::string> __line_of_data;
+		std::vector<std::string> __lines_of_data;
 	public:
 		XSave();
 		explicit XSave(const std::string);

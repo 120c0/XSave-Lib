@@ -12,7 +12,7 @@ XSave::XSave(const std::string filename)
 // getting
 const std::vector<std::string>& XSave::getLines() const
 {
-  return this->__line_of_data;
+  return this->__lines_of_data;
 }
 const std::string XSave::getDataInfo(const std::string id_name)
 {
@@ -39,7 +39,7 @@ void XSave::loadFile(const std::string filename)
     
     char current_line[256];
     while(file.getline(current_line, 256))
-      this->__line_of_data.push_back(current_line);
+      this->__lines_of_data.push_back(current_line);
 
     file.close();
   }

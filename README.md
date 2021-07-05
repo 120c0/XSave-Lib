@@ -1,20 +1,34 @@
-# XSave-Lib 1.0.0
-Esse projeto foi feito para o iniciante ter noção básica de banco de dados. Aproveitem :)
+<h1 align="center">XSave-Lib 1.1.1 - Remake</h1>
+<hr>
+## Correções
+  <p>
+     1 - Correção para quem tem perfeccionismo.
+  </p>
 
-Como usar:
-Tipo para usar o banco de dados: XSave(const char*)
+## addDataInfo(const string&, const string &)
+  <p>
+    O primeiro parâmetro, é o endereço e o segundo o valor. </br>
+    Essa função salva dados no arquivo do <strong>banco de dados</strong>.
+  <p>
+  
+## getDataInfo(const string)
+  <p>
+    O parâmetro recebe o nome do endereço. </br>
+    Pega o valor de um endereço do banco de dados.
+  <p>
+  
+## loadFile(const string)
+  <p>
+    Carrega o buffer do banco de dados, por um arquivo <strong>*.dl</strong>
+  </p>
+  
+## getLines()
+  <p>
+    Retorna um vetor com as linhas do banco de dados.
+  </p>
 
-xsave.add(std::string, std::string):
-  Esse é para adicionar uma chave e o valor, ou seja
-  xsave.add("Pedro", "18");
-  Aqui a chave "Pedro" tem um valor guardado ("18")
 
-xsave.getData(std:;string) ou xsave[std::string]:
-  Coloque a chave que o valor está armazenado, ou seja
-  xsave.getData("Pedro") //Output: 18
-  xsave["Pedro"] //Output: 18
-
-xsave.clear():
-  Obviamente limpa o banco de dados
-
-Pronto, o básico dele, é apenas para ter noção de banco de dados.
+# Progresso
+- [X] Refatoraçao na classe XSave (1.0.0).
+- [ ] Criptografia para dificultar acesso direto ao arquivo.
+- [ ] Salvar uma lista de valores em um endereço.
