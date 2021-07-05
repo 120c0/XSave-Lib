@@ -1,4 +1,4 @@
-<h1 align="center">XSave-Lib 1.1.1 - Remake</h1>
+<h1 align="center">XSave-Lib 1.1.2 - Remake</h1>
 <hr>
 ## Correções
   <p>
