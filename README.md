@@ -1,9 +1,5 @@
 <h1 align="center">XSave-Lib 1.1.2 - Remake</h1>
 <hr>
-## Correções
-  <p>
-     1 - Correção para quem tem perfeccionismo.
-  </p>
 
 ## addDataInfo(const string&, const string &)
   <p>
