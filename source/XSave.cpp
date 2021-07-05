@@ -4,7 +4,7 @@ XSave::XSave()
 {
 	
 }
-XSave::XSave(const std::string filename)
+XSave::XSave(const std::string &filename)
   : __filename(filename)
 {
   this->loadFile(filename);
@@ -14,7 +14,7 @@ const std::vector<std::string>& XSave::getLines() const
 {
   return this->__lines_of_data;
 }
-const std::string XSave::getDataInfo(const std::string id_name)
+const std::string XSave::getDataInfo(const std::string &id_name)
 {
   std::string result;
   for(const std::string& line : this->getLines())
@@ -29,7 +29,7 @@ const std::string XSave::getDataInfo(const std::string id_name)
 // setting
 
 // other
-void XSave::loadFile(const std::string filename)
+void XSave::loadFile(const std::string& filename)
 {
   if(filename.substr(filename.find("."), filename.size()) == ".dl")
   {
