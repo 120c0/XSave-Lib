@@ -1,7 +1,7 @@
 <h1 align="center">XSave-Lib 1.2.0 - Coding</h1>
 <hr>
 
-## XSave<std::uint32_t>
+## XSave<<std::uint32_t>>
   <p>
     O máximo de caracteres do buffer
   <p>
