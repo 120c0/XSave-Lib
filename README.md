@@ -1,31 +1,34 @@
-<h1 align="center">XSave-Lib 1.1.3 - Remake</h1>
+<h1 align="center">XSave-Lib 1.2.0 - Remake</h1>
 <hr>
 
-## addDataInfo(const string&, const string &)
+## XSave<std::uint32_t>
+  <p>
+    O máximo de caracteres do buffer
+  <p>
+
+## addData(const string, const string)
   <p>
     O primeiro parâmetro, é o endereço e o segundo o valor. </br>
-    Essa função salva dados no arquivo do <strong>banco de dados</strong>.
+    Essa função salva dados no arquivo do <strong>banco de dados (file.dl)</strong>.
   <p>
   
-## getDataInfo(const string)
+## getData(const string)
   <p>
-    O parâmetro recebe o nome do endereço. </br>
-    Pega o valor de um endereço do banco de dados.
+    O parâmetro recebe o endereço. </br>
+    Pega o valor de um endereço de um elemento, no banco de dados.
   <p>
   
 ## loadFile(const string)
   <p>
-    Carrega o buffer do banco de dados, por um arquivo <strong>*.dl</strong>
+    Carrega o buffer do banco de dados, de um arquivo <strong>*.dl</strong>
   </p>
   
 ## getLines()
   <p>
-    Retorna um vetor com as linhas do banco de dados.
+    Retorna um vetor com as linhas do banco de dados.</br>
+    Parte para manipulação externa.
   </p>
 
-
 # Progresso
-- [X] Refatoraçao na classe XSave (1.0.0).
-- [ ] Criptografia para dificultar acesso direto ao arquivo.
-- [ ] Salvar uma lista de valores em um endereço.
-- [ ] Salvar uma lista de valores em um endereço.
+- [ ] Criptografia para "dificultar" acesso direto ao arquivo.
+- [ ] Salvar uma array de valores em um endereço.
