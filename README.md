@@ -3,7 +3,7 @@
 
 ## XSave<<std::uint32_t>>
   <p>
-    O máximo de caracteres do buffer
+    O máximo de bytes no buffer.
   <p>
 
 ## addData(const string, const string)
