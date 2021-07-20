@@ -27,7 +27,10 @@ class XSave
 		// getter and setter
 		virtual const std::vector<std::string>& getLines() const;
 		virtual const std::string getData(const std::string);
+		virtual const std::vector<std::string> getArrayData(const std::string);
+
 		virtual void addData(const std::string, const std::string);
+		virtual void addArrayData(const std::string, const std::vector<std::string>);
 		// other
 		virtual void loadFile(const std::string);
     virtual void clear() noexcept;
