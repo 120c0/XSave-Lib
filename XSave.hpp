@@ -14,6 +14,9 @@
 #define XSAVE_KILOBYTE 0x400
 #define XSAVE_MEGABYTE 0x100000
 
+#define XSAVE_MAJOR_VERSION 2
+#define XSAVE_MINOR_VERSION 0
+
 template<std::uint32_t = XSAVE_BYTE>
 class XSave  
 {

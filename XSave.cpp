@@ -68,6 +68,7 @@ template<std::uint32_t buffer_length>
 void XSave<buffer_length>::addArrayData(const std::string id_name, const std::vector<std::string> values)
 {
   std::string line = "[";
+  
   if(this->__filename.size() > 0)
   {
     if(
